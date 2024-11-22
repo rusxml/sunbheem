@@ -61,9 +61,9 @@
             display: flex;
             justify-content: center;
             margin: 20px 0; /* Space above and below the images */
-        }
-
-        .product-images img {
+	}
+	 
+        product-images img {
             height: 250px; /* Set height to 250px */
             width: 250px; /* Set width to 250px */
             margin: 0 10px; /* Space between images */
@@ -72,6 +72,19 @@
 	    #sheer{
 	    font-size: 22px;	    
 	    }
+
+	.logo {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0; /* Space above and below the images */
+	}
+	 
+        logo img {
+            height: 250px; /* Set width to 250px */
+            margin: 0 10px; /* Space between images */
+            object-fit: cover; /* Ensures the aspect ratio is maintained */
+        }    
+	
 
         .buy-button {
             background-color: #27ae60; /* Button color */
@@ -99,10 +112,12 @@
         <p>Harness the power of the sun to generate clean energy!</p>
         
         <!-- New div for product images -->
-        <div>
-            <img  class="product-images" src="sher.jpeg"alt="Product Image 1">
-            <img src="sheeer.png"alt="Product Image 2">
-	    <img  class="product-images" src="paint.jpeg" alt="Product Image 3">
+	<div class = "logo">
+	    <img  id="preset" src="sheeeer.png"alt="Product Image 2">
+	</div>	
+        <div class= "product images">
+            <img  src="sher.jpeg"alt="Product Image 1">
+	    <img  src="paint.jpeg" alt="Product Image 3">
         </div>
      <form action='https://forms.gle/YP6TWAdrKKL6CbQHA'>
         <button class="buy-button">Be a Part of Sun-भीम Team!</button>
