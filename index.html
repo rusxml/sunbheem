@@ -17,7 +17,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            background-color: #1abc9c; /* Lighter green for header */
+            background-color: #4db39c; /* Lighter green for header */
             padding: 15px;
         }
 
@@ -32,6 +32,7 @@
             font-weight: bold; /* Make the heading bold */
             color: #ffffff; /* White color for the heading */
         }
+
 
         .center-images {
             display: flex;
@@ -65,13 +66,17 @@
             margin: 0 10px; /* Space between images */
             object-fit: cover; /* Ensures the aspect ratio is maintained */
         }
+	    #sheer{
+	    font-size: 22px;	    
+	    }
 
         .buy-button {
             background-color: #27ae60; /* Button color */
             color: white;
+	    margin-right: 50px;	
             border: none;
             padding: 10px 20px;
-            font-size: 16px;
+            font-size: 20px;
             cursor: pointer;
             border-radius: 5px;
             transition: background-color 0.3s;
@@ -103,9 +108,10 @@
             <img src="SUN_BHEEM-removebg-preview.png"alt="Product Image 2">
 	    <img src="paint.jpeg" alt="Product Image 3">
         </div>
-
+     <form action='https://forms.gle/YP6TWAdrKKL6CbQHA'>
         <button class="buy-button">Be a Part of Sun-भीम Team!</button>
-	<button class="buy-button">Get Your Certificate..</button>    
+	<button href='https://forms.gle/YP6TWAdrKKL6CbQHA' id= 'sheer' class="buy-button">  Get Your Certificate  .</button>
+    </form>    
     </main>
 </body>
 </html>
